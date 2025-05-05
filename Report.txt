@@ -1,44 +1,46 @@
-Name:
+Name: Harrison Drake
 
-Number of elements:
+Number of elements: 1000
 
 Bubble Sort
-Sorted:
-Reversed:
-Random:
+Sorted: .02151
+Reversed: .05407
+Random: .04650
 
 Bubble Sort Early Exit
-Sorted:
-Reversed:
-Random:
+Sorted:0.00009
+Reversed:0.05627
+Random:0.04268
 
 Selection Sort
-Sorted:
-Reversed:
-Random:
+Sorted:0.01904
+Reversed:0.01916
+Random:0.01871
 
 Insertion Sort
-Sorted:
-Reversed:
-Random:
+Sorted:0.00013
+Reversed:0.03266
+Random:0.02182
 
 Merge Sort
-Sorted:
-Reversed:
-Random:
+Sorted:0.00201
+Reversed:0.00201
+Random:0.0241
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
-
+Bubble Sort was the worst
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
-
+Bubble sort has many swaps with each pass which is why its the slowest, selection sort scans the unsorted portion, insertion sort depends on the size of the data set
 
 3) Why was merge sort so much more efficient?
-
+Merge sort is so much more effecient for larger data sets because it divides the approach
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
+this is useful because dividing the work to have merge sort perform on larger data sets, while insertion sort works efficiently on smaller data sets
 
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+Merge sort can be memory intensive
